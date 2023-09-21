@@ -121,7 +121,7 @@ def main():
     epoch=0
 
 
-
+    #학습 반복
     while epoch<args.max_epoch:
         epoch_loss=0
         model.train()
